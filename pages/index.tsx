@@ -86,7 +86,7 @@ const IndexPage: NextPage<Props> = ({ ssr }) => {
             css={{ mx: 'auto', maxWidth: 728, pt: '$5', textAlign: 'center' }}
           >
             <Text style="h3" css={{ mb: 24 }}>
-              IKIGAI 生 RESERVOIR
+              IKIGAI 生 CURATED
             </Text>
             <Text style="body1" css={{ mb: 48 }}>
               Life is not fungible. We’re all an ERC-721. 
@@ -113,7 +113,7 @@ const IndexPage: NextPage<Props> = ({ ssr }) => {
             }}
           >
             <Text style="h4" as="h4">
-              Collections by Volume
+              Curated Collections by Volume
             </Text>
             <Flex align="center" css={{ gap: '$4' }}>
               <CollectionsTimeDropdown
